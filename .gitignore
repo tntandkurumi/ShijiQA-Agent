@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Node / Vite
+node_modules/
+dist/
+.vite/
+.npm-cache/
+*.tsbuildinfo
+
+# Local runtime
+.env
+.env.local
+.llm.models.local.json
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Notebook / editor
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated model/vector data
+chromadb*/
+bm25_index.pkl
+bm25_docs.pkl

@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.local
+.llm.models.local.json
+wenyuan.db
+*.sqlite
+*.sqlite3
