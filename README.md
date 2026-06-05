@@ -111,7 +111,7 @@ LLM_MODEL=deepseek-v4-pro
 LLM_API_KEY=your_api_key
 ```
 
-多模型本机配置方式见 `docs/07_llm_configuration.md`。`.env.local`、`.llm.models.local.json` 不应提交。
+多模型本机配置方式见 `docs/07_llm_configuration.md`。
 
 ## 验证
 
@@ -119,7 +119,7 @@ LLM_API_KEY=your_api_key
 .\scripts\smoke_test.ps1
 ```
 
-该脚本会检查后端导入、8 个预置检索工具、注册登录、会话创建、SSE 问答、过程记录、会话删除和前端构建。也就是说，它同时覆盖 FastAPI 后端链路和 React 前端构建。
+该脚本会检查后端导入、8 个预置检索工具、注册登录、会话创建、SSE 问答、过程记录、会话删除和前端构建。(同时覆盖 FastAPI 后端链路和 React 前端构建)
 
 ## 数据说明
 
